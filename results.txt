@@ -1,0 +1,53 @@
+vitaliibogdaniuk@MacBook-Pro-Vitalii-4 git-practice % git status
+На ветке main
+Ваша ветка обновлена в соответствии с «origin/main».
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
+	results.txt
+
+ничего не добавлено в коммит, но есть неотслеживаемые файлы (используйте «git add», чтобы отслеживать их)
+
+
+vitaliibogdaniuk@MacBook-Pro-Vitalii-4 git-practice % git log
+commit a9b04c713f0ad98fa91d69440a74697f982164b9 (HEAD -> main, origin/main, origin/HEAD)
+Author: Vitalii Bohdaniuk <v.bogdanuk@gmail.com>
+Date:   Sat May 27 14:23:19 2023 +0300
+
+    Create doc.txt
+
+commit 34aa145220e893dadb5116be6744ac8c1599a7ff
+Merge: 104fa7a 92b27a6
+Author: Vitalii Bohdaniuk <vitaliibogdaniuk@MacBook-Pro-Vitalii-4.local>
+Date:   Sat May 27 14:21:50 2023 +0300
+
+    fix merge conflict
+
+commit 104fa7a4ea53fdb1709326e7eab161d8975c9886
+Author: Vitalii Bohdaniuk <vitaliibogdaniuk@MacBook-Pro-Vitalii-4.local>
+Date:   Sat May 27 14:18:34 2023 +0300
+
+    added changes to index file
+
+commit 92b27a6d811ced8406c3e0a91762512aa8fe8118 (origin/new-branch, new-branch)
+Author: Vitalii Bohdaniuk <vitaliibogdaniuk@MacBook-Pro-Vitalii-4.local>
+Date:   Sat May 27 14:16:37 2023 +0300
+
+    added 3rd raw
+
+commit 585418c46a07cd78500a9620fa18e4b7d273792a
+Author: Vitalii Bohdaniuk <vitaliibogdaniuk@MacBook-Pro-Vitalii-4.local>
+Date:   Sat May 27 14:16:08 2023 +0300
+
+    added 2nd raw
+
+commit 9c9751c5e208b6c86dc30536f31c46c4f2d74c09
+
+vitaliibogdaniuk@MacBook-Pro-Vitalii-4 git-practice % git log --merges
+commit 34aa145220e893dadb5116be6744ac8c1599a7ff
+Merge: 104fa7a 92b27a6
+Author: Vitalii Bohdaniuk <vitaliibogdaniuk@MacBook-Pro-Vitalii-4.local>
+Date:   Sat May 27 14:21:50 2023 +0300
+
+    fix merge conflicty
+
